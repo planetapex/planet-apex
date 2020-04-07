@@ -16,6 +16,11 @@
       "identifier": "about",
       "title": "About",
       "url": "#"
+    },
+    {
+      "identifier": "contact",
+      "title": "Contact",
+      "url": "#"
     }
   ]
 }
