@@ -1,24 +1,4 @@
 {
-  "siteMetadata": {
-    "title": "Planet Apex",
-    "author": "Planet Apex",
-    "description": "Blog post started by M.Yasir Ali Shah to share about stuff I learn about programming and everything related to it.",
-    "siteUrl": "https://planet-apex.netlify.com/",
-    "keywords": [
-      "Emeruche",
-      "Cole",
-      "Ikenna",
-      "Ruche",
-      "React developer",
-      "Front-end Engineer"
-    ],
-    "social": {
-      "twitter": "m_yasir_ali",
-      "github": "planetapex",
-      "email": "yasirali.wizrp@gmail.com"
-    }
-  },
-  "title": "Stackbit Libris Theme",
   "palette": "blue",
   "palettes": {
     "blue": {
@@ -45,5 +25,43 @@
         "accent2": "#4a00e0"
       }
     }
-  }
+  },
+
+  "header": {
+    "title": "PlanetApex ",
+    "tagline": "An experienced fullstack Developer",
+    "profile_img": "https://dummyimage.com/250x250.jpg?text=Yasir",
+    "bg": "dark",
+    "has_nav": true,
+    "has_social": true
+  },
+  "footer": {
+    "content": "&copy; All rights reserved.",
+    "links": [
+      {
+        "text": "Made with ❤️ and ☕️ in Pakistan",
+        "url": "https://planet-apex.netlify.com/",
+        "new_window": true
+      }
+    ]
+  },
+  "title": "Planet Apex",
+  "author": "Planet Apex",
+  "siteUrl": "https://nabendu.blog/",
+  "description": "Blog posts started by M.Yasir Ali Shah to share stuff i learn in my Web development journey",
+  "keywords": [
+    "Yasir",
+    "Ali",
+    "Oracle",
+    "APEX",
+    "jQuery",
+    "UI Lead",
+    "GatsbyJs",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "ReactJs",
+    "React developer",
+    "Front-end Engineer"
+  ]
 }
