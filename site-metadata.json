@@ -1,30 +1,49 @@
 {
-    "title": "Stackbit Libris Theme",
-    "palette": "blue",
-    "palettes": {
-        "blue": {
-            "sass": {
-                "accent1": "#00c6ff",
-                "accent2": "#0072ff"
-            }
-        },
-        "green": {
-            "sass": {
-                "accent1": "#12db5d",
-                "accent2": "#11998e"
-            }
-        },
-        "navy": {
-            "sass": {
-                "accent1": "#004e92",
-                "accent2": "#000428"
-            }
-        },
-        "violet": {
-            "sass": {
-                "accent1": "#8e2de2",
-                "accent2": "#4a00e0"
-            }
-        }
+  "siteMetadata": {
+    "title": "Planet Apex",
+    "author": "Planet Apex",
+    "description": "Blog post started by M.Yasir Ali Shah to share about stuff I learn about programming and everything related to it.",
+    "siteUrl": "https://planet-apex.netlify.com/",
+    "keywords": [
+      "Emeruche",
+      "Cole",
+      "Ikenna",
+      "Ruche",
+      "React developer",
+      "Front-end Engineer"
+    ],
+    "social": {
+      "twitter": "m_yasir_ali",
+      "github": "planetapex",
+      "email": "yasirali.wizrp@gmail.com"
     }
+  },
+  "title": "Stackbit Libris Theme",
+  "palette": "blue",
+  "palettes": {
+    "blue": {
+      "sass": {
+        "accent1": "#00c6ff",
+        "accent2": "#0072ff"
+      }
+    },
+    "green": {
+      "sass": {
+        "accent1": "#12db5d",
+        "accent2": "#11998e"
+      }
+    },
+    "navy": {
+      "sass": {
+        "accent1": "#004e92",
+        "accent2": "#000428"
+      }
+    },
+    "violet": {
+      "sass": {
+        "accent1": "#8e2de2",
+        "accent2": "#4a00e0"
+      }
+    }
+  }
 }

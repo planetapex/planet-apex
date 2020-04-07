@@ -4,6 +4,7 @@ module.exports = {
     plugins: [
         `gatsby-plugin-react-helmet`,
         `gatsby-source-data`,
+        `gatsby-plugin-robots-txt`,
         {
             resolve: `gatsby-source-filesystem`,
             options: {
@@ -37,6 +38,19 @@ module.exports = {
                 pageContextProperty: `menus`,
                 menus: require('./src/data/menus.json'),
             }
+        },
+        { resolve: `gatsby-plugin-robots-txt`,
+            options: {
+          host: 'https://planet-apex.netlify.com/',
+          sitemap: 'https://planet-apex.netlify.com//sitemap.xml',
+          policy: [{ userAgent: '*', allow: '/' }]
         }
+        },
+        { resolve: `gatsby-plugin-google-analytics`,
+        options: {
+          trackingId : `UA-106215150-2`
+       }
+}
+  
     ]
 };
