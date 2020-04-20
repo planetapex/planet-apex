@@ -8,7 +8,6 @@ menus:
     weight: 1
 template: page
 ---
-
 <form name="contact-us" method="POST" data-netlify="true">
   <p>
     <label>Your Name: <input type="text" name="name" /></label>   
@@ -20,6 +19,10 @@ template: page
     <label>Message: <textarea name="message"></textarea></label>
   </p>
   <p>
+
+ <p>
+    <label>Message: <textarea name="message1"></textarea></label>
+  </p>
     <button type="submit">Send</button>
   </p>
 </form>
